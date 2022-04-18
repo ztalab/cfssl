@@ -1,8 +1,8 @@
 package universal
 
 import (
-	"gitlab.oneitfarm.com/bifrost/cfssl/ocsp"
-	ocspConfig "gitlab.oneitfarm.com/bifrost/cfssl/ocsp/config"
+	"github.com/ztalab/cfssl/ocsp"
+	ocspConfig "github.com/ztalab/cfssl/ocsp/config"
 )
 
 // NewSignerFromConfig generates a new OCSP signer from a config object.

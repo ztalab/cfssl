@@ -4,10 +4,10 @@ import (
 	"flag"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/universal"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/signer/universal"
 )
 
 // Config is a type to hold flag values used by cfssl commands.
@@ -69,7 +69,7 @@ type Config struct {
 	AKI               string
 	DBConfigFile      string
 	CRLExpiration     time.Duration
-	Disable     	  string
+	Disable           string
 }
 
 // registerFlags defines all cfssl command flags and associates their values with variables.

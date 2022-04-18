@@ -3,7 +3,7 @@ package selfsign
 import (
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
+	"github.com/ztalab/cfssl/cli"
 )
 
 func TestSelfSignMain(t *testing.T) {

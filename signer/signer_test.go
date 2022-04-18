@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/csr"
 )
 
 func TestAppendIf(t *testing.T) {

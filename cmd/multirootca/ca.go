@@ -8,13 +8,13 @@ import (
 	"net"
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api/info"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/sql"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/multiroot/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/local"
-	"gitlab.oneitfarm.com/bifrost/cfssl/whitelist"
+	"github.com/ztalab/cfssl/api/info"
+	"github.com/ztalab/cfssl/certdb/sql"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/multiroot/config"
+	"github.com/ztalab/cfssl/signer"
+	"github.com/ztalab/cfssl/signer/local"
+	"github.com/ztalab/cfssl/whitelist"
 
 	_ "github.com/go-sql-driver/mysql" // import to support MySQL
 	_ "github.com/lib/pq"              // import to support Postgres

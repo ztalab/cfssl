@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 // DeprecationSeverity encodes the severity of a deprecation policy

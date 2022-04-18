@@ -12,8 +12,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 //TestNew validate the CertificateRequest created to return with a KeyRequest
@@ -113,7 +113,7 @@ func TestParseRequest(t *testing.T) {
 		KeyRequest: NewKeyRequest(),
 		Extensions: []pkix.Extension{
 			pkix.Extension{
-				Id: asn1.ObjectIdentifier{1, 2, 3, 4, 5},
+				Id:    asn1.ObjectIdentifier{1, 2, 3, 4, 5},
 				Value: []byte("AgEB"),
 			},
 		},
@@ -123,7 +123,7 @@ func TestParseRequest(t *testing.T) {
 	if err != nil {
 		t.Fatalf("%v", err)
 	}
-	
+
 	block, _ := pem.Decode(csrBytes)
 	if block == nil {
 		t.Fatalf("%v", err)

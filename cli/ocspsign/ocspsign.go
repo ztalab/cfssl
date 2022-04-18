@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/ocsp"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/ocsp"
 )
 
 // Usage text of 'cfssl ocspsign'

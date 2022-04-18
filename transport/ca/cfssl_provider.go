@@ -9,13 +9,13 @@ import (
 	"net"
 	"path/filepath"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api/client"
-	"gitlab.oneitfarm.com/bifrost/cfssl/auth"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/info"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/core"
+	"github.com/ztalab/cfssl/api/client"
+	"github.com/ztalab/cfssl/auth"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/info"
+	"github.com/ztalab/cfssl/signer"
+	"github.com/ztalab/cfssl/transport/core"
 )
 
 type authError struct {

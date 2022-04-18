@@ -12,14 +12,14 @@ import (
 	"testing"
 	"time"
 
-	apiinfo "gitlab.oneitfarm.com/bifrost/cfssl/api/info"
-	apisign "gitlab.oneitfarm.com/bifrost/cfssl/api/signhandler"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers/testsuite"
-	"gitlab.oneitfarm.com/bifrost/cfssl/info"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/local"
+	apiinfo "github.com/ztalab/cfssl/api/info"
+	apisign "github.com/ztalab/cfssl/api/signhandler"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/helpers/testsuite"
+	"github.com/ztalab/cfssl/info"
+	"github.com/ztalab/cfssl/signer"
+	"github.com/ztalab/cfssl/signer/local"
 )
 
 const (

@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/initca"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/initca"
 )
 
 var genkeyUsageText = `cfssl genkey -- generate a new key and CSR

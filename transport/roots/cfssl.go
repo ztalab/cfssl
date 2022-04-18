@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api/client"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/info"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/api/client"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/info"
+	"github.com/ztalab/cfssl/log"
 )
 
 // This package contains CFSSL integration.

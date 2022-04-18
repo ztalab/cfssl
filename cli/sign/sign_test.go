@@ -3,9 +3,9 @@ package sign
 import (
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/sql"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/testdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
+	"github.com/ztalab/cfssl/certdb/sql"
+	"github.com/ztalab/cfssl/certdb/testdb"
+	"github.com/ztalab/cfssl/cli"
 )
 
 func TestSignFromConfig(t *testing.T) {

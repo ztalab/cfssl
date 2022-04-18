@@ -33,7 +33,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
+	"github.com/ztalab/cfssl/config"
 )
 
 // Command holds the implementation details of a cfssl command.

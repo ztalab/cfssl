@@ -7,8 +7,7 @@ package log
 
 import (
 	"fmt"
-	logger "gitlab.oneitfarm.com/bifrost/cilog/v2"
-	"go.uber.org/zap"
+	"log"
 	"os"
 )
 
@@ -37,8 +36,6 @@ var levelPrefix = [...]string{
 	LevelFatal:    "FATAL",
 }
 
-var Logger = logger.S().Desugar().WithOptions(zap.AddCallerSkip(3)).Named("cfssl")
-
 // Level stores the current logging level.
 var Level = LevelInfo
 
@@ -66,20 +63,25 @@ func SetLogger(logger SyslogWriter) {
 }
 
 func print(l int, msg string) {
-	lo := Logger
-	switch l {
-	case LevelDebug:
-		lo.Debug(msg)
-	case LevelInfo:
-		lo.Info(msg)
-	case LevelWarning:
-		lo.Warn(msg)
-	case LevelError:
-		lo.Error(msg)
-	case LevelCritical:
-		lo.Error(msg)
-	case LevelFatal:
-		lo.Fatal(msg)
+	if l >= Level {
+		if syslogWriter != nil {
+			switch l {
+			case LevelDebug:
+				syslogWriter.Debug(msg)
+			case LevelInfo:
+				syslogWriter.Info(msg)
+			case LevelWarning:
+				syslogWriter.Warning(msg)
+			case LevelError:
+				syslogWriter.Err(msg)
+			case LevelCritical:
+				syslogWriter.Crit(msg)
+			case LevelFatal:
+				syslogWriter.Emerg(msg)
+			}
+		} else {
+			log.Printf("[%s] %s", levelPrefix[l], msg)
+		}
 	}
 }
 

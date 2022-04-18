@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/info"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/csr"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/info"
 )
 
 // Subject contains the information that should be used to override the

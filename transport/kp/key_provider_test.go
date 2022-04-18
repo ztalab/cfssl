@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/core"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/transport/core"
 )
 
 const (

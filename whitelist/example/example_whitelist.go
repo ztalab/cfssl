@@ -8,7 +8,7 @@ import (
 	"net"
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/whitelist"
+	"github.com/ztalab/cfssl/whitelist"
 )
 
 var wl = whitelist.NewBasic()

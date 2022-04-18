@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/auth"
-	"gitlab.oneitfarm.com/bifrost/cfssl/info"
+	"github.com/ztalab/cfssl/auth"
+	"github.com/ztalab/cfssl/info"
 )
 
 // Strategy is the means by which the server to use as a remote should

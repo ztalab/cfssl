@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/bundler"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/ubiquity"
+	"github.com/ztalab/cfssl/bundler"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/ubiquity"
 )
 
 // Usage text of 'cfssl bundle'

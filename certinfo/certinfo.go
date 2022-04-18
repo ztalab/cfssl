@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 // Certificate represents a JSON description of an X.509 certificate.

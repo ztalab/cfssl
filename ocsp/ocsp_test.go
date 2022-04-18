@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/crypto/ocsp"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 const (

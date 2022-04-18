@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli/scan"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/cli/scan"
+	"github.com/ztalab/cfssl/config"
 )
 
 // main defines the scan usage and registers all defined commands and flags.

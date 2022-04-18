@@ -2,8 +2,8 @@ package client
 
 import (
 	"crypto/tls"
-	"gitlab.oneitfarm.com/bifrost/cfssl/auth"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/auth"
+	"github.com/ztalab/cfssl/helpers"
 	"net"
 	"strings"
 	"testing"

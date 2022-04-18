@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/core"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/transport/core"
 )
 
 // Providers is a mapping of supported providers and the functions

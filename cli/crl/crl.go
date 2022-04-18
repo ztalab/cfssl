@@ -4,13 +4,13 @@ package crl
 import (
 	"os"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/dbconf"
-	certsql "gitlab.oneitfarm.com/bifrost/cfssl/certdb/sql"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/crl"
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/certdb/dbconf"
+	certsql "github.com/ztalab/cfssl/certdb/sql"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/crl"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
 
 	"github.com/jmoiron/sqlx"
 )

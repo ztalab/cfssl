@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli/bundle"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/cli/bundle"
+	"github.com/ztalab/cfssl/config"
 )
 
 // main defines the bundle usage and registers all defined commands and flags.

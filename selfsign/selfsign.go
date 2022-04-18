@@ -15,9 +15,9 @@ import (
 	"math/big"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
+	"github.com/ztalab/cfssl/config"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/signer"
 )
 
 const threeMonths = 2190 * time.Hour

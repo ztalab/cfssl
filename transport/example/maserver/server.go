@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"net"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/core"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/example/exlib"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/transport"
+	"github.com/ztalab/cfssl/transport/core"
+	"github.com/ztalab/cfssl/transport/example/exlib"
 )
 
 // maclient is a mutual-authentication server, meant to demonstrate

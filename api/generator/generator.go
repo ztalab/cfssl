@@ -11,14 +11,14 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/bundler"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/universal"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/bundler"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/signer"
+	"github.com/ztalab/cfssl/signer/universal"
 )
 
 const (

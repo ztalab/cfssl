@@ -6,11 +6,11 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/initca"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/initca"
+	"github.com/ztalab/cfssl/log"
 )
 
 // A NewCA contains a private key and certificate suitable for serving

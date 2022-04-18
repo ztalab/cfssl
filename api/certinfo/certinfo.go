@@ -5,10 +5,10 @@ import (
 	"errors"
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certinfo"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/certinfo"
+	"github.com/ztalab/cfssl/log"
 )
 
 // Handler accepts requests for either remote or uploaded

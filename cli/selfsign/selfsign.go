@@ -8,12 +8,12 @@ import (
 	"os"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli/genkey"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/selfsign"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/cli/genkey"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/selfsign"
 )
 
 var selfSignUsageText = `cfssl selfsign -- generate a new self-signed key and signed certificate

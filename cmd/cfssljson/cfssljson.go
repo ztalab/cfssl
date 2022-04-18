@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli/version"
+	"github.com/ztalab/cfssl/cli/version"
 )
 
 func readFile(filespec string) ([]byte, error) {

@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api/client"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli/sign"
-	"gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/info"
+	"github.com/ztalab/cfssl/api/client"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/cli/sign"
+	"github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/info"
 
 	goerr "errors"
 )

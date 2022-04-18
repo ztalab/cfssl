@@ -6,7 +6,7 @@ import (
 	"crypto/elliptic"
 	"crypto/rsa"
 	"crypto/x509"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/helpers"
 	"math"
 )
 

@@ -24,20 +24,18 @@ import (
 	"os"
 	"time"
 
-	v2log "gitlab.oneitfarm.com/bifrost/cilog/v2"
-
-	"gitlab.oneitfarm.com/bifrost/cfssl/hook"
+	"github.com/ztalab/cfssl/hook"
 
 	ct "github.com/google/certificate-transparency-go"
 	"github.com/google/certificate-transparency-go/client"
 	"github.com/google/certificate-transparency-go/jsonclient"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/info"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/config"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/info"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/signer"
 
 	zx509 "github.com/zmap/zcrypto/x509"
 	"github.com/zmap/zlint/v2"
@@ -567,10 +565,10 @@ func (s *Signer) Sign(req signer.SignRequest) (cert []byte, err error) {
 
 		// 填充 UniqueID
 		if req.Metadata != nil {
-			v2log.With("metadata", req.Metadata).Debug("签名证书 Metadata")
+			log.Debug("签名证书 Metadata,", "metadata:", req.Metadata)
 			if uniqueIDIf, ok := req.Metadata[hook.MetadataUniqueID]; ok {
 				if uniqueID, isStr := uniqueIDIf.(string); isStr {
-					v2log.With("unique_id", uniqueID).Debug("签名证书")
+					log.Debug("签名证书,", "unique_id", uniqueID)
 					certRecord.CommonName = sql.NullString{String: uniqueID, Valid: true}
 				}
 			}

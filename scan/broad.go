@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/bundler"
+	"github.com/ztalab/cfssl/bundler"
 )
 
 // Broad contains scanners for large swaths of TLS hosts on the internet.

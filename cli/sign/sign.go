@@ -6,13 +6,13 @@ import (
 	"errors"
 	"io/ioutil"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/dbconf"
-	certsql "gitlab.oneitfarm.com/bifrost/cfssl/certdb/sql"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/universal"
+	"github.com/ztalab/cfssl/certdb/dbconf"
+	certsql "github.com/ztalab/cfssl/certdb/sql"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/signer"
+	"github.com/ztalab/cfssl/signer/universal"
 
 	"github.com/jmoiron/sqlx"
 )

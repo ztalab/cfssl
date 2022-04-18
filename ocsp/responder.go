@@ -22,10 +22,10 @@ import (
 	"time"
 
 	"github.com/jmhodges/clock"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/dbconf"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/sql"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/certdb/dbconf"
+	"github.com/ztalab/cfssl/certdb/sql"
+	"github.com/ztalab/cfssl/log"
 	"golang.org/x/crypto/ocsp"
 )
 

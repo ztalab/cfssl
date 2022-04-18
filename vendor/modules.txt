@@ -41,9 +41,6 @@ github.com/cloudflare/redoctober/symcrypt
 github.com/daaku/go.zipexe
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
-# github.com/garyburd/redigo v1.6.2
-github.com/garyburd/redigo/internal
-github.com/garyburd/redigo/redis
 # github.com/getsentry/raven-go v0.0.0-20180121060056-563b81fc02b7
 ## explicit
 github.com/getsentry/raven-go
@@ -77,8 +74,6 @@ github.com/jmhodges/clock
 github.com/jmoiron/sqlx
 github.com/jmoiron/sqlx/reflectx
 github.com/jmoiron/sqlx/types
-# github.com/json-iterator/go v1.1.10
-github.com/json-iterator/go
 # github.com/kisielk/sqlstruct v0.0.0-20150923205031-648daed35d49
 ## explicit
 github.com/kisielk/sqlstruct
@@ -98,12 +93,6 @@ github.com/lib/pq/scram
 # github.com/mattn/go-sqlite3 v1.10.0
 ## explicit
 github.com/mattn/go-sqlite3
-# github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
-## explicit
-github.com/modern-go/concurrent
-# github.com/modern-go/reflect2 v1.0.1
-## explicit
-github.com/modern-go/reflect2
 # github.com/nkovacs/streamquote v0.0.0-20170412213628-49af9bddb229
 github.com/nkovacs/streamquote
 # github.com/pkg/errors v0.9.1
@@ -111,9 +100,6 @@ github.com/nkovacs/streamquote
 github.com/pkg/errors
 # github.com/pmezard/go-difflib v1.0.0
 github.com/pmezard/go-difflib/difflib
-# github.com/sirupsen/logrus v1.7.0
-## explicit
-github.com/sirupsen/logrus
 # github.com/stretchr/testify v1.4.0
 ## explicit
 github.com/stretchr/testify/assert
@@ -149,25 +135,6 @@ github.com/zmap/zlint/v2/lints/etsi
 github.com/zmap/zlint/v2/lints/mozilla
 github.com/zmap/zlint/v2/lints/rfc
 github.com/zmap/zlint/v2/util
-# gitlab.oneitfarm.com/bifrost/cilog v0.1.5-0.20210114110313-04a4e6e6bb39
-## explicit
-gitlab.oneitfarm.com/bifrost/cilog
-gitlab.oneitfarm.com/bifrost/cilog/redis_hook
-gitlab.oneitfarm.com/bifrost/cilog/v2
-# gitlab.oneitfarm.com/bifrost/logrus-redis-hook v0.0.2-0.20201203023123-29afb561fa48
-gitlab.oneitfarm.com/bifrost/logrus-redis-hook
-# go.uber.org/atomic v1.6.0
-go.uber.org/atomic
-# go.uber.org/multierr v1.5.0
-go.uber.org/multierr
-# go.uber.org/zap v1.16.0
-## explicit
-go.uber.org/zap
-go.uber.org/zap/buffer
-go.uber.org/zap/internal/bufferpool
-go.uber.org/zap/internal/color
-go.uber.org/zap/internal/exit
-go.uber.org/zap/zapcore
 # golang.org/x/crypto v0.0.0-20201012173705-84dcc777aaee
 ## explicit
 golang.org/x/crypto/cryptobyte
@@ -188,11 +155,6 @@ golang.org/x/lint/golint
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/idna
-# golang.org/x/sys v0.0.0-20201015000850-e3ed0017c211
-## explicit
-golang.org/x/sys/internal/unsafeheader
-golang.org/x/sys/unix
-golang.org/x/sys/windows
 # golang.org/x/text v0.3.3
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform

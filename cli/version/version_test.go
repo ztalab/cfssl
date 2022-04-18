@@ -3,7 +3,7 @@ package version
 import (
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
+	"github.com/ztalab/cfssl/cli"
 )
 
 func TestVersionMain(t *testing.T) {

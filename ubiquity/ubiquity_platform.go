@@ -13,8 +13,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
 )
 
 // SHA1RawPublicKey returns a SHA1 hash of the raw certificate public key

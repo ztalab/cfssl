@@ -1,3 +1,4 @@
+//go:build postgresql
 // +build postgresql
 
 package sql
@@ -5,7 +6,7 @@ package sql
 import (
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/testdb"
+	"github.com/ztalab/cfssl/certdb/testdb"
 )
 
 func TestPostgreSQL(t *testing.T) {
