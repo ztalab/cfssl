@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 const (

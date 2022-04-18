@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/auth"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/auth"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/signer"
 )
 
 const (

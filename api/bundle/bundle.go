@@ -4,10 +4,10 @@ package bundle
 import (
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/bundler"
-	"gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/bundler"
+	"github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/log"
 )
 
 // Handler accepts requests for either remote or uploaded

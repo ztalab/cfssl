@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api/client"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/info"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/core"
+	"github.com/ztalab/cfssl/api/client"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/info"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/transport/core"
 )
 
 var (

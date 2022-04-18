@@ -15,12 +15,12 @@ import (
 	"regexp"
 	"strings"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/dbconf"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers/derhelpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/whitelist"
+	"github.com/ztalab/cfssl/certdb/dbconf"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/helpers/derhelpers"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/whitelist"
 
 	"github.com/cloudflare/redoctober/client"
 	"github.com/cloudflare/redoctober/core"

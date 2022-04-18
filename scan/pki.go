@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/revoke"
-	"gitlab.oneitfarm.com/bifrost/cfssl/scan/crypto/tls"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/revoke"
+	"github.com/ztalab/cfssl/scan/crypto/tls"
 )
 
 // PKI contains scanners for the Public Key Infrastructure.

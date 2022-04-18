@@ -8,9 +8,9 @@ import (
 	"os"
 	"sync"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/scan"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/scan"
 )
 
 var scanUsageText = `cfssl scan -- scan a host for issues

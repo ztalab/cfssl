@@ -25,9 +25,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/core"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/transport/core"
 )
 
 const (

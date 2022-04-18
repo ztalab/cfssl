@@ -8,9 +8,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/local"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/signer"
+	"github.com/ztalab/cfssl/signer/local"
 )
 
 const (

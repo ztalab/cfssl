@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/log"
 )
 
 // A Listener is a TCP network listener for TLS-secured connections.

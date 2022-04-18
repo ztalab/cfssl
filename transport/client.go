@@ -7,14 +7,14 @@ import (
 	"time"
 
 	"github.com/cloudflare/backoff"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/revoke"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/ca"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/core"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/kp"
-	"gitlab.oneitfarm.com/bifrost/cfssl/transport/roots"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/revoke"
+	"github.com/ztalab/cfssl/transport/ca"
+	"github.com/ztalab/cfssl/transport/core"
+	"github.com/ztalab/cfssl/transport/kp"
+	"github.com/ztalab/cfssl/transport/roots"
 )
 
 func envOrDefault(key, def string) string {
@@ -232,7 +232,6 @@ func (tr *Transport) RefreshKeys() (err error) {
 			}
 			return err
 		}
-
 
 		log.Debug("requesting certificate from CA")
 		// 调用 CA

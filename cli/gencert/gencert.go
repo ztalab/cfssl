@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"errors"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api/generator"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli/genkey"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli/sign"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/initca"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
+	"github.com/ztalab/cfssl/api/generator"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/cli/genkey"
+	"github.com/ztalab/cfssl/cli/sign"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/initca"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/signer"
 )
 
 var gencertUsageText = `cfssl gencert -- generate a new key and signed certificate

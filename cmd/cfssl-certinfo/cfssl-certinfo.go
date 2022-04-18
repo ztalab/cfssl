@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli/certinfo"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/cli/certinfo"
+	"github.com/ztalab/cfssl/config"
 
 	_ "github.com/go-sql-driver/mysql" // import to support MySQL
 	_ "github.com/lib/pq"              // import to support Postgres

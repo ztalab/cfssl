@@ -3,7 +3,7 @@ package printdefaults
 import (
 	"fmt"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
+	"github.com/ztalab/cfssl/cli"
 )
 
 var printDefaultsUsage = `cfssl print-defaults -- print default configurations that can be used as a template

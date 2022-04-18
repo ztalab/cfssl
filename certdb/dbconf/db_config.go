@@ -5,8 +5,8 @@ import (
 	"errors"
 	"io/ioutil"
 
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/log"
 
 	"github.com/jmoiron/sqlx"
 )

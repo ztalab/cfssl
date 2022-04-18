@@ -13,7 +13,7 @@ package core
 import (
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
+	"github.com/ztalab/cfssl/csr"
 )
 
 // A Root stores information about a trusted root.

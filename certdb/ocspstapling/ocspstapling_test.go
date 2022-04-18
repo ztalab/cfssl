@@ -12,11 +12,11 @@ import (
 	"os"
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/sql"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/testdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
 	ct "github.com/google/certificate-transparency-go"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/certdb/sql"
+	"github.com/ztalab/cfssl/certdb/testdb"
+	"github.com/ztalab/cfssl/helpers"
 	"golang.org/x/crypto/ocsp"
 )
 

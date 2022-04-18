@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 const (

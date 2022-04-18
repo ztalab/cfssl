@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/revoke"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/revoke"
 )
 
 // worker does all the parsing and validation of the certificate(s)

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
+	"github.com/ztalab/cfssl/api"
 )
 
 // Response contains the response to the /health API

@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/initca"
-	"gitlab.oneitfarm.com/bifrost/cfssl/selfsign"
 	"github.com/kisom/goutils/assert"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/initca"
+	"github.com/ztalab/cfssl/selfsign"
 )
 
 func tempName() (string, error) {

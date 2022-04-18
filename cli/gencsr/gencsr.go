@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/signer"
 )
 
 var gencsrUsageText = `cfssl gencsr -- generate a csr from a private key with existing CSR json specification or certificate

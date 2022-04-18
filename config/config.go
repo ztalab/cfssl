@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/auth"
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	ocspConfig "gitlab.oneitfarm.com/bifrost/cfssl/ocsp/config"
+	"github.com/ztalab/cfssl/auth"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
+	ocspConfig "github.com/ztalab/cfssl/ocsp/config"
 	// empty import of zlint/v2 required to have lints registered.
 	_ "github.com/zmap/zlint/v2"
 	"github.com/zmap/zlint/v2/lint"

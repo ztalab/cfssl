@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
+	"github.com/ztalab/cfssl/cli"
 )
 
 var (

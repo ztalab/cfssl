@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
 	"golang.org/x/crypto/ocsp"
 )
 
@@ -151,9 +151,9 @@ func NewSignerFromFile(issuerFile, responderFile, keyFile string, interval time.
 func NewDynamicSigner(getCaCert func() *x509.Certificate, getPriv func() crypto.Signer, interval time.Duration) (Signer, error) {
 	return &StandardSigner{
 		// 兼容旧结构
-		issuer:     getCaCert(),
-		responder:  getCaCert(),
-		key:        getPriv(),
+		issuer:    getCaCert(),
+		responder: getCaCert(),
+		key:       getPriv(),
 
 		// Dynamic
 		interval:   interval,

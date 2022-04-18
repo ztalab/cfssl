@@ -2,7 +2,7 @@ package roots
 
 import (
 	"crypto/x509"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 func NewSystem(_ map[string]string) ([]*x509.Certificate, error) {

@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/dbconf"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/sql"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certinfo"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
 	"github.com/jmoiron/sqlx"
+	"github.com/ztalab/cfssl/certdb/dbconf"
+	"github.com/ztalab/cfssl/certdb/sql"
+	"github.com/ztalab/cfssl/certinfo"
+	"github.com/ztalab/cfssl/cli"
 )
 
 // Usage text of 'cfssl certinfo'

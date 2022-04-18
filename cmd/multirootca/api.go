@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/auth"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
-	"gitlab.oneitfarm.com/bifrost/cfssl/whitelist"
 	metrics "github.com/cloudflare/go-metrics"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/auth"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/signer"
+	"github.com/ztalab/cfssl/whitelist"
 )
 
 // A SignatureResponse contains only a certificate, as there is no other

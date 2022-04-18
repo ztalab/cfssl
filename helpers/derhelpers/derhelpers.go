@@ -1,3 +1,4 @@
+//go:build go1.13
 // +build go1.13
 
 // Package derhelpers implements common functionality
@@ -11,7 +12,7 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
+	cferr "github.com/ztalab/cfssl/errors"
 )
 
 // ParsePrivateKeyDER parses a PKCS #1, PKCS #8, ECDSA, or Ed25519 DER-encoded

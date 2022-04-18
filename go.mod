@@ -1,4 +1,4 @@
-module gitlab.oneitfarm.com/bifrost/cfssl
+module github.com/ztalab/cfssl
 
 go 1.14
 
@@ -21,21 +21,15 @@ require (
 	github.com/kylelemons/go-gypsy v0.0.0-20160905020020-08cad365cd28 // indirect
 	github.com/lib/pq v1.3.0
 	github.com/mattn/go-sqlite3 v1.10.0
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/sirupsen/logrus v1.7.0 // indirect
 	github.com/stretchr/testify v1.4.0
 	github.com/weppos/publicsuffix-go v0.13.0 // indirect
 	github.com/ziutek/mymysql v1.5.4 // indirect
 	github.com/zmap/zcrypto v0.0.0-20200911161511-43ff0ea04f21
 	github.com/zmap/zlint/v2 v2.2.1
-	gitlab.oneitfarm.com/bifrost/cilog v0.1.5-0.20210114110313-04a4e6e6bb39
-	go.uber.org/zap v1.16.0
 	golang.org/x/crypto v0.0.0-20201012173705-84dcc777aaee
 	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f
 	golang.org/x/net v0.0.0-20201010224723-4f7140c49acb
-	golang.org/x/sys v0.0.0-20201015000850-e3ed0017c211 // indirect
 	golang.org/x/tools v0.0.0-20200103221440-774c71fcf114 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/protobuf v1.24.0 // indirect

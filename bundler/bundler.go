@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/ubiquity"
+	"github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/ubiquity"
 )
 
 // IntermediateStash contains the path to the directory where

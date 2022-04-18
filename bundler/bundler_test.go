@@ -9,15 +9,15 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/ubiquity"
+	"github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/ubiquity"
 )
 
 const (
-	// from https://gitlab.oneitfarm.com/bifrost/cfssl_trust/blob/master/ca-bundle.crt
+	// from https://github.com/ztalab/cfssl_trust/blob/master/ca-bundle.crt
 	testCaBundle = "testdata/ca-bundle.pem"
-	// from https://gitlab.oneitfarm.com/bifrost/cfssl_trust/blob/master/int-bundle.crt
+	// from https://github.com/ztalab/cfssl_trust/blob/master/int-bundle.crt
 	testIntCaBundle     = "testdata/int-bundle.pem"
 	testNSSRootBundle   = "testdata/nss.pem"
 	testMetadata        = "testdata/ca-bundle.crt.metadata"

@@ -1,3 +1,4 @@
+//go:build mysql
 // +build mysql
 
 package sql
@@ -5,7 +6,7 @@ package sql
 import (
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/testdb"
+	"github.com/ztalab/cfssl/certdb/testdb"
 )
 
 func TestMySQL(t *testing.T) {

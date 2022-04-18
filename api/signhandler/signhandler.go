@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/auth"
-	"gitlab.oneitfarm.com/bifrost/cfssl/bundler"
-	"gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/auth"
+	"github.com/ztalab/cfssl/bundler"
+	"github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/signer"
 )
 
 // NoBundlerMessage is used to alert the user that the server does not have a bundler initialized.

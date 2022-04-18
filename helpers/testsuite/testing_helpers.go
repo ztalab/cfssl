@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/csr"
 )
 
 // CFSSLServerData is the data with which a server is initialized. These fields

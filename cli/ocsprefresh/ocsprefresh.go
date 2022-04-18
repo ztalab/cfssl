@@ -6,12 +6,12 @@ import (
 	"errors"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/dbconf"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/sql"
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/ocsp"
+	"github.com/ztalab/cfssl/certdb/dbconf"
+	"github.com/ztalab/cfssl/certdb/sql"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/ocsp"
 )
 
 // Usage text of 'cfssl ocsprefresh'

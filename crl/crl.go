@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
 )
 
 // NewCRLFromFile takes in a list of serial numbers, one per line, as well as the issuing certificate

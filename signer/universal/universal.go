@@ -5,13 +5,13 @@ import (
 	"crypto/x509"
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/info"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/local"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/remote"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/config"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/info"
+	"github.com/ztalab/cfssl/signer"
+	"github.com/ztalab/cfssl/signer/local"
+	"github.com/ztalab/cfssl/signer/remote"
 )
 
 // Signer represents a universal signer which is both local and remote

@@ -17,9 +17,9 @@ import (
 	"net/url"
 	"strings"
 
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/log"
 )
 
 const (

@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/sql"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/testdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/certdb/sql"
+	"github.com/ztalab/cfssl/certdb/testdb"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 const (

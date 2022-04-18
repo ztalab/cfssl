@@ -4,10 +4,10 @@ package sign
 import (
 	"net/http"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api/signhandler"
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/universal"
+	"github.com/ztalab/cfssl/api/signhandler"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/log"
+	"github.com/ztalab/cfssl/signer/universal"
 )
 
 // NewHandler generates a new Handler using the certificate

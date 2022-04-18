@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb"
-	"gitlab.oneitfarm.com/bifrost/cfssl/certdb/testdb"
+	"github.com/ztalab/cfssl/certdb"
+	"github.com/ztalab/cfssl/certdb/testdb"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/require"

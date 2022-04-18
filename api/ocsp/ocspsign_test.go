@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/api"
-	"gitlab.oneitfarm.com/bifrost/cfssl/ocsp"
+	"github.com/ztalab/cfssl/api"
+	"github.com/ztalab/cfssl/ocsp"
 	goocsp "golang.org/x/crypto/ocsp"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 const (

@@ -2,8 +2,8 @@
 package gencrl
 
 import (
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
-	"gitlab.oneitfarm.com/bifrost/cfssl/crl"
+	"github.com/ztalab/cfssl/cli"
+	"github.com/ztalab/cfssl/crl"
 	"strings"
 )
 

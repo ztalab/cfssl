@@ -3,7 +3,7 @@ package scan
 import (
 	"testing"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/cli"
+	"github.com/ztalab/cfssl/cli"
 )
 
 var hosts = []string{"www.cloudflare.com", "google.com"}

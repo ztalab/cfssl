@@ -15,7 +15,7 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"gitlab.oneitfarm.com/bifrost/cfssl/hook"
+	"github.com/ztalab/cfssl/hook"
 	"io/ioutil"
 	"os"
 
@@ -27,10 +27,10 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/crypto/pkcs7"
-	cferr "gitlab.oneitfarm.com/bifrost/cfssl/errors"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers/derhelpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/log"
+	"github.com/ztalab/cfssl/crypto/pkcs7"
+	cferr "github.com/ztalab/cfssl/errors"
+	"github.com/ztalab/cfssl/helpers/derhelpers"
+	"github.com/ztalab/cfssl/log"
 	"golang.org/x/crypto/pkcs12"
 )
 

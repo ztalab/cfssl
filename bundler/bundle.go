@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
+	"github.com/ztalab/cfssl/helpers"
 )
 
 // A Bundle contains a certificate and its trust chain. It is intended

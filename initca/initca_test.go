@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.oneitfarm.com/bifrost/cfssl/config"
-	"gitlab.oneitfarm.com/bifrost/cfssl/csr"
-	"gitlab.oneitfarm.com/bifrost/cfssl/helpers"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer"
-	"gitlab.oneitfarm.com/bifrost/cfssl/signer/local"
+	"github.com/ztalab/cfssl/config"
+	"github.com/ztalab/cfssl/csr"
+	"github.com/ztalab/cfssl/helpers"
+	"github.com/ztalab/cfssl/signer"
+	"github.com/ztalab/cfssl/signer/local"
 )
 
 var validKeyParams = []csr.KeyRequest{
