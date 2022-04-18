@@ -1,0 +1,16 @@
+{
+  "CN": "client",
+  "key": {
+    "algo": "sm2",
+    "size": 256
+  },
+  "names": [
+    {
+      "C": "CN",
+      "L": "Beijing",
+      "O": "Test Corp",
+      "OU": "Test Dep"
+    }
+  ],
+  "Hosts": []
+}
