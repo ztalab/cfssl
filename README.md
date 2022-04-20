@@ -26,6 +26,12 @@ CFSSL consists of:
 * the `cfssljson` program, which takes the JSON output from the
   `cfssl` and `multirootca` programs and writes certificates, keys,
   CSRs, and bundles to disk.
+  
+### Customized Modification
+
+When we use the cfssl toolkit, the existing functions of cfssl may not fully meet the needs of users, and so do we, so according to our needs, we will modify the cfssl source code to meet our needs.主要修改内容有两个方面：
+1、When obtaining certificate information, trust certificate information will be added.
+2、Enrich certificate scan information, and add storage-related information when the database is saved.
 
 ### Building
 
