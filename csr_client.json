@@ -1,8 +1,8 @@
 {
   "CN": "client",
   "key": {
-    "algo": "sm2",
-    "size": 256
+    "algo": "rsa",
+    "size": 2048
   },
   "names": [
     {
